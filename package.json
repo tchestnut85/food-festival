@@ -1,0 +1,35 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "food festival progressive web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchestnut85/food-festival.git"
+  },
+  "keywords": [
+    "food",
+    "festival",
+    "PWA"
+  ],
+  "author": "Tom Chestnut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchestnut85/food-festival/issues"
+  },
+  "homepage": "https://github.com/tchestnut85/food-festival#readme",
+  "devDependencies": {
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
